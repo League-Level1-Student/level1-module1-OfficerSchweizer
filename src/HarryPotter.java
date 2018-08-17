@@ -33,7 +33,11 @@ System.out.println("casting spell: " + spell);
 	}
 
 	void spyOnSnape() {
-		System.out.println("Harry sees Professor Snape doing nefarious things.");
+		if (cloakOn) {
+			System.out.println("Harry sees Professor Snape doing nefarious things.");
+		} else {
+			System.out.println("Snape caught Harry spying!");
+		}
 	}
 
 
